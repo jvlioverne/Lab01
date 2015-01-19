@@ -19,6 +19,7 @@
 		85F11A571A6C99CB00A8CA9B /* v_michael.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85F11A521A6C99CB00A8CA9B /* v_michael.jpg */; };
 		85F11A581A6C99CB00A8CA9B /* v_starlet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85F11A531A6C99CB00A8CA9B /* v_starlet.jpg */; };
 		85F11A591A6C99CB00A8CA9B /* v_trevor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85F11A541A6C99CB00A8CA9B /* v_trevor.jpg */; };
+		85F11A5C1A6CB1C000A8CA9B /* SegundaVista.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F11A5B1A6CB1C000A8CA9B /* SegundaVista.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		85F11A521A6C99CB00A8CA9B /* v_michael.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = v_michael.jpg; path = ../practica1/practica1/v_michael.jpg; sourceTree = "<group>"; };
 		85F11A531A6C99CB00A8CA9B /* v_starlet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = v_starlet.jpg; path = ../practica1/practica1/v_starlet.jpg; sourceTree = "<group>"; };
 		85F11A541A6C99CB00A8CA9B /* v_trevor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = v_trevor.jpg; path = ../practica1/practica1/v_trevor.jpg; sourceTree = "<group>"; };
+		85F11A5A1A6CB1C000A8CA9B /* SegundaVista.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegundaVista.h; sourceTree = "<group>"; };
+		85F11A5B1A6CB1C000A8CA9B /* SegundaVista.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegundaVista.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,8 @@
 				85F119ED1A6C972F00A8CA9B /* AppDelegate.m */,
 				85F119EF1A6C972F00A8CA9B /* ViewController.h */,
 				85F119F01A6C972F00A8CA9B /* ViewController.m */,
+				85F11A5A1A6CB1C000A8CA9B /* SegundaVista.h */,
+				85F11A5B1A6CB1C000A8CA9B /* SegundaVista.m */,
 				85F119F21A6C972F00A8CA9B /* Main.storyboard */,
 				85F119F51A6C972F00A8CA9B /* Images.xcassets */,
 				85F119F71A6C972F00A8CA9B /* LaunchScreen.xib */,
@@ -250,6 +255,7 @@
 				85F119F11A6C972F00A8CA9B /* ViewController.m in Sources */,
 				85F119EE1A6C972F00A8CA9B /* AppDelegate.m in Sources */,
 				85F119EB1A6C972F00A8CA9B /* main.m in Sources */,
+				85F11A5C1A6CB1C000A8CA9B /* SegundaVista.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
