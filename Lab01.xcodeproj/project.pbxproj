@@ -14,6 +14,11 @@
 		85F119F61A6C972F00A8CA9B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85F119F51A6C972F00A8CA9B /* Images.xcassets */; };
 		85F119F91A6C972F00A8CA9B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85F119F71A6C972F00A8CA9B /* LaunchScreen.xib */; };
 		85F11A051A6C972F00A8CA9B /* Lab01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F11A041A6C972F00A8CA9B /* Lab01Tests.m */; };
+		85F11A551A6C99CB00A8CA9B /* v_chop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85F11A501A6C99CB00A8CA9B /* v_chop.jpg */; };
+		85F11A561A6C99CB00A8CA9B /* v_franklin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85F11A511A6C99CB00A8CA9B /* v_franklin.jpg */; };
+		85F11A571A6C99CB00A8CA9B /* v_michael.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85F11A521A6C99CB00A8CA9B /* v_michael.jpg */; };
+		85F11A581A6C99CB00A8CA9B /* v_starlet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85F11A531A6C99CB00A8CA9B /* v_starlet.jpg */; };
+		85F11A591A6C99CB00A8CA9B /* v_trevor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85F11A541A6C99CB00A8CA9B /* v_trevor.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,11 @@
 		85F119FE1A6C972F00A8CA9B /* Lab01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85F11A031A6C972F00A8CA9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85F11A041A6C972F00A8CA9B /* Lab01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lab01Tests.m; sourceTree = "<group>"; };
+		85F11A501A6C99CB00A8CA9B /* v_chop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = v_chop.jpg; path = ../practica1/practica1/v_chop.jpg; sourceTree = "<group>"; };
+		85F11A511A6C99CB00A8CA9B /* v_franklin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = v_franklin.jpg; path = ../practica1/practica1/v_franklin.jpg; sourceTree = "<group>"; };
+		85F11A521A6C99CB00A8CA9B /* v_michael.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = v_michael.jpg; path = ../practica1/practica1/v_michael.jpg; sourceTree = "<group>"; };
+		85F11A531A6C99CB00A8CA9B /* v_starlet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = v_starlet.jpg; path = ../practica1/practica1/v_starlet.jpg; sourceTree = "<group>"; };
+		85F11A541A6C99CB00A8CA9B /* v_trevor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = v_trevor.jpg; path = ../practica1/practica1/v_trevor.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,7 @@
 		85F119DC1A6C972F00A8CA9B = {
 			isa = PBXGroup;
 			children = (
+				85F11A0E1A6C998000A8CA9B /* imgs */,
 				85F119E71A6C972F00A8CA9B /* Lab01 */,
 				85F11A011A6C972F00A8CA9B /* Lab01Tests */,
 				85F119E61A6C972F00A8CA9B /* Products */,
@@ -117,6 +128,18 @@
 				85F11A031A6C972F00A8CA9B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85F11A0E1A6C998000A8CA9B /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				85F11A501A6C99CB00A8CA9B /* v_chop.jpg */,
+				85F11A511A6C99CB00A8CA9B /* v_franklin.jpg */,
+				85F11A521A6C99CB00A8CA9B /* v_michael.jpg */,
+				85F11A531A6C99CB00A8CA9B /* v_starlet.jpg */,
+				85F11A541A6C99CB00A8CA9B /* v_trevor.jpg */,
+			);
+			name = imgs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +222,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85F11A561A6C99CB00A8CA9B /* v_franklin.jpg in Resources */,
+				85F11A551A6C99CB00A8CA9B /* v_chop.jpg in Resources */,
+				85F11A591A6C99CB00A8CA9B /* v_trevor.jpg in Resources */,
+				85F11A581A6C99CB00A8CA9B /* v_starlet.jpg in Resources */,
+				85F11A571A6C99CB00A8CA9B /* v_michael.jpg in Resources */,
 				85F119F41A6C972F00A8CA9B /* Main.storyboard in Resources */,
 				85F119F91A6C972F00A8CA9B /* LaunchScreen.xib in Resources */,
 				85F119F61A6C972F00A8CA9B /* Images.xcassets in Resources */,

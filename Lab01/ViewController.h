@@ -10,6 +10,13 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIImageView *imgDisplay;
+@property (strong, nonatomic) IBOutlet UILabel *lblNombre1;
+@property (strong, nonatomic) IBOutlet UILabel *lblEdad1;
+
+- (IBAction)btnSiguientePressed:(id)sender;
+- (IBAction)btnAnteriorPressed:(id)sender;
+
 
 @end
 
