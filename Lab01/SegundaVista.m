@@ -13,10 +13,23 @@
 @end
 
 @implementation SegundaVista
+@synthesize lblNombre2;
+@synthesize lblEdad2;
+@synthesize nombre, edad;
+
+
+
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    //self.imgSegunda.image = ;
+    self.lblNombre2.text = nombre;
+    self.lblEdad2.text = edad;
+    
+
 }
 
 - (void)didReceiveMemoryWarning {

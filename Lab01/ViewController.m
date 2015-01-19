@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SegundaVista.h"
 
 NSMutableArray *imagesArray;
 int iImage = 0;
@@ -72,4 +73,22 @@ NSMutableArray *edadArray;
     self.lblNombre1.text=nombreArray[iImage];
     self.lblEdad1.text=edadArray[iImage];
 }
+
+-(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([[segue identifier] isEqualToString:@"pasarDatos"])
+    {
+        SegundaVista *segundo = [segue destinationViewController];
+        
+        
+        segundo.imagen = [UIImage imageNamed:imagesArray[iImage]];
+        segundo.nombre = nombreArray[iImage];
+        segundo.edad = edadArray[iImage];
+
+        
+        
+    }
+    
+}
+
 @end

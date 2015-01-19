@@ -9,10 +9,20 @@
 #import <UIKit/UIKit.h>
 
 @interface SegundaVista : UIViewController
+
 @property (strong, nonatomic) IBOutlet UIImageView *imgSegunda;
 
-@property (strong, nonatomic) IBOutlet UILabel *btnNom2;
-@property (strong, nonatomic) IBOutlet UILabel *btnEdad2;
+@property (strong, nonatomic) IBOutlet UILabel *lblNombre2;
+
+@property (strong, nonatomic) IBOutlet UILabel *lblEdad2;
+
+
+@property (strong, nonatomic) UIImageView *imagen;
+
+@property (strong, nonatomic) NSString *nombre;
+@property (strong, nonatomic) NSString *edad;
+
+
 
 
 @end
