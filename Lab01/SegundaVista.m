@@ -25,7 +25,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    //self.imgSegunda.image = ;
+    self.imgSegunda.image =_imagen;
     self.lblNombre2.text = nombre;
     self.lblEdad2.text = edad;
     

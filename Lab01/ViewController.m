@@ -81,7 +81,7 @@ NSMutableArray *edadArray;
         SegundaVista *segundo = [segue destinationViewController];
         
         
-        segundo.imagen = [UIImage imageNamed:imagesArray[iImage]];
+        segundo.imagen = [UIImage imageNamed:imagesArray[iImage] ];
         segundo.nombre = nombreArray[iImage];
         segundo.edad = edadArray[iImage];
 

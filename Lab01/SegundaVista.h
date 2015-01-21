@@ -17,8 +17,7 @@
 @property (strong, nonatomic) IBOutlet UILabel *lblEdad2;
 
 
-@property (strong, nonatomic) UIImageView *imagen;
-
+@property (strong, nonatomic) UIImage *imagen;
 @property (strong, nonatomic) NSString *nombre;
 @property (strong, nonatomic) NSString *edad;
 
