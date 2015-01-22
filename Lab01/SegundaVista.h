@@ -11,9 +11,7 @@
 @interface SegundaVista : UIViewController
 
 @property (strong, nonatomic) IBOutlet UIImageView *imgSegunda;
-
 @property (strong, nonatomic) IBOutlet UILabel *lblNombre2;
-
 @property (strong, nonatomic) IBOutlet UILabel *lblEdad2;
 
 

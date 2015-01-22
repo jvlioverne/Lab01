@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface editar : UIViewController
-@property (strong, nonatomic) IBOutlet UIButton *btnRegresa;
 
 
 @property (strong, nonatomic) IBOutlet UITextField *txtfNombre;

@@ -18,13 +18,10 @@ double alfax = 1;
 @end
 
 @implementation SegundaVista
+
 @synthesize lblNombre2;
 @synthesize lblEdad2;
 @synthesize nombre, edad;
-
-
-
-
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -69,12 +66,12 @@ double alfax = 1;
     }
 }
 
--(void) prepareForSegue:(UIStoryboardSegue *)segue2 sender:(id)sender
+-(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    if ([[segue2 identifier] isEqualToString:@"mandarEdicion"])
+    if ([[segue identifier] isEqualToString:@"mandarEdicion"])
         
     {
-        editar *edicion = [segue2 destinationViewController];
+        editar *edicion = [segue destinationViewController];
         
         edicion.nombreEdit = lblNombre2.text;
         edicion.edadEdit = lblEdad2.text;

@@ -7,6 +7,7 @@
 //
 
 #import "editar.h"
+#import "SegundaVista.h"
 
 @interface editar ()
 
@@ -14,7 +15,10 @@
 
 @implementation editar
 
+@synthesize txtfNombre;
+@synthesize txtfEdad;
 @synthesize nombreEdit, edadEdit;
+
 
 
 - (void)viewDidLoad {
@@ -39,6 +43,20 @@
 }
 */
 
-- (IBAction)btnGuardarPressed:(id)sender {
+-(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([[segue identifier] isEqualToString:@"regresarEdit"])
+        
+    {
+        SegundaVista *regresoEdit = [segue destinationViewController];
+        
+        regresoEdit.lblNombre2.text = txtfNombre.text;
+        regresoEdit.lblEdad2.text = txtfEdad.text;
+        // edicion.nombreEdit = lblNombre2.text;
+        //edicion.edadEdit = lblEdad2.text;
+        
+        
+    }
+
 }
-@end
+    @end
