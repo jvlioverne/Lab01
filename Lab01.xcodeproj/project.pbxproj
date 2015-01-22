@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85EFFFC51A707BD800A11CAE /* editar.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EFFFC41A707BD800A11CAE /* editar.m */; };
 		85F119EB1A6C972F00A8CA9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F119EA1A6C972F00A8CA9B /* main.m */; };
 		85F119EE1A6C972F00A8CA9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F119ED1A6C972F00A8CA9B /* AppDelegate.m */; };
 		85F119F11A6C972F00A8CA9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F119F01A6C972F00A8CA9B /* ViewController.m */; };
@@ -33,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		85EFFFC31A707BD800A11CAE /* editar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = editar.h; sourceTree = "<group>"; };
+		85EFFFC41A707BD800A11CAE /* editar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = editar.m; sourceTree = "<group>"; };
 		85F119E51A6C972F00A8CA9B /* Lab01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85F119E91A6C972F00A8CA9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85F119EA1A6C972F00A8CA9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -101,6 +104,8 @@
 				85F119F01A6C972F00A8CA9B /* ViewController.m */,
 				85F11A5A1A6CB1C000A8CA9B /* SegundaVista.h */,
 				85F11A5B1A6CB1C000A8CA9B /* SegundaVista.m */,
+				85EFFFC31A707BD800A11CAE /* editar.h */,
+				85EFFFC41A707BD800A11CAE /* editar.m */,
 				85F119F21A6C972F00A8CA9B /* Main.storyboard */,
 				85F119F51A6C972F00A8CA9B /* Images.xcassets */,
 				85F119F71A6C972F00A8CA9B /* LaunchScreen.xib */,
@@ -256,6 +261,7 @@
 				85F119EE1A6C972F00A8CA9B /* AppDelegate.m in Sources */,
 				85F119EB1A6C972F00A8CA9B /* main.m in Sources */,
 				85F11A5C1A6CB1C000A8CA9B /* SegundaVista.m in Sources */,
+				85EFFFC51A707BD800A11CAE /* editar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +452,7 @@
 				85F11A0A1A6C972F00A8CA9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85F11A0B1A6C972F00A8CA9B /* Build configuration list for PBXNativeTarget "Lab01Tests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +461,7 @@
 				85F11A0D1A6C972F00A8CA9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

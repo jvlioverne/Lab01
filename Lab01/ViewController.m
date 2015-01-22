@@ -78,6 +78,7 @@ NSMutableArray *edadArray;
 {
     if ([[segue identifier] isEqualToString:@"pasarDatos"])
     {
+        
         SegundaVista *segundo = [segue destinationViewController];
         
         

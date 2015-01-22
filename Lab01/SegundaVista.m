@@ -7,8 +7,13 @@
 //
 
 #import "SegundaVista.h"
+#import "editar.h"
+
+double alfax = 1;
+
 
 @interface SegundaVista ()
+
 
 @end
 
@@ -46,5 +51,36 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (IBAction)btnPlusPressed:(id)sender {
+    
+    if (alfax <= 1) {
+        alfax = alfax + 0.1;
+        self.imgSegunda.alpha= alfax;
+    }
+    
+}
+
+- (IBAction)btnLessPressed:(id)sender
+{
+    if (alfax >= 0) {
+        alfax = alfax - 0.1;
+        self.imgSegunda.alpha= alfax;
+    }
+}
+
+-(void) prepareForSegue:(UIStoryboardSegue *)segue2 sender:(id)sender
+{
+    if ([[segue2 identifier] isEqualToString:@"mandarEdicion"])
+        
+    {
+        editar *edicion = [segue2 destinationViewController];
+        
+        edicion.nombreEdit = lblNombre2.text;
+        edicion.edadEdit = lblEdad2.text;
+        
+        
+    }
+}
 
 @end

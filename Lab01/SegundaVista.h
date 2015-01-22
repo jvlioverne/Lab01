@@ -21,7 +21,9 @@
 @property (strong, nonatomic) NSString *nombre;
 @property (strong, nonatomic) NSString *edad;
 
+- (IBAction)btnPlusPressed:(id)sender;
+- (IBAction)btnLessPressed:(id)sender;
 
-
+@property (strong, nonatomic) IBOutlet UIButton *btnEditar;
 
 @end
